@@ -1,0 +1,55 @@
+#donotcopy {
+    font-size: 11px;
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+}
+
+#gohome-footer {
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+#nameandfont {
+    font: 128px 'aihet';
+    color: #910e0f;
+    text-align: center;
+}
+
+#error404 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#time {
+    font-size: 14px;
+}
+
+#time2 {
+    font-size: 14px;
+}
+
+#menu {
+    font-size: 14px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#menu a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'aihet';
+    src: url('/assets/fonts/aihet_script_personal_use_only.woff2') format('woff2'),
+         url('/assets/fonts/aihet_script_personal_use_only.woff') format('woff'),
+         url('/assets/fonts/aihet.tff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}

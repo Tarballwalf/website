@@ -1,0 +1,11 @@
+<Configuration>
+  <Info Description="Project Professional 2019 (64-bit)" />
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019" SourcePath="C:\OfficeSetup">
+    <Product ID="ProjectPro2019Volume" PIDKEY="#####-#####-#####-#####-#####">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+  </Add>
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>

@@ -1,0 +1,11 @@
+<Configuration>
+  <Info Description="Visio Professional 2019 (32-bit)" />
+  <Add OfficeClientEdition="32" Channel="PerpetualVL2019" SourcePath="C:\OfficeSetup">
+    <Product ID="VisioPro2019Volume" PIDKEY="#####-#####-#####-#####-#####">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+  </Add>
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>

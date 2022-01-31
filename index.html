@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <link rel="icon" href="/assets/logo.png" type="image">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/body.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.26/moment-timezone-with-data-10-year-range.min.js"></script>
+  <script type="module" src="/assets/zero-md.min.js"></script>
+  <script>
+    setInterval(() => {
+      document.getElementById('time2').innerHTML = moment.tz('Europe/Bucharest').format('dddd, MMMM Do   HH:mm (hh:mm A) z')
+    }, 300)
+    </script>
+  <!-- Meta Tags -->
+  <meta property="og:site_name" content="Tarballwalf" />
+  <meta property="og:title" content="Home" />
+  <meta name="title" content="Home">
+  <meta name="theme-color" content="#910E0F">
+  <meta name="description" content="Just another furry." />
+  <meta property="og:description" content="Just another furry." />
+  <meta name="author" content="Tarballwalf" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Home" />
+  <meta name="twitter:site" content="@Tarballwalf" />
+  <meta name="twitter:creator" content="@TarballTheFurry" />
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <!-- Meta Tags -->
+</head>
+<body>
+  <div id="nameandfont">Tarballwalf</div>
+  <center>
+    <!-- Border -->
+    <div class="block">
+      <hr class="border"></hr>
+    </div>
+    <!-- Border -->
+    <div class="block">
+      <p id="time2" style="float: left;">Loading Time...</p>
+      <p id="time" style="text-align: right; float: right; ">Info:</p>
+    </div>
+    <!-- Border -->
+    <div class="block" style="clear: both;">
+      <hr class="border"></hr>
+    </div>
+    <!-- Border -->
+    <div class="block">
+      <line>
+        <p>I'm Tarballwalf (sometimes known as TarballTheFurry, or simply Tarball); I like computers, EVs (especially Teslas), music, and technology.</p>
+        <p>Things I do:</p>
+        <p>- Hardware and networking</p>
+        <p>- Programming (Basic level)</p>
+        <p>- Amateur photographer</p>
+        <p>Also a romanian furry. I speak Română, English fluently and a bit of Русский.</p>
+        <p>Built this website from the ground up with little to no knowledge about web development. This will effectively be the place where I'm going to host many of my projects. This website is actually one of my projects, and I'm actively working on it (even if it may not seem like it).</p>
+      </line>
+    </div>
+    <!-- Border -->
+    <div class="block">
+      <hr class="border"></hr>
+    </div>
+    <!-- Border -->
+    <div class="block">
+      <p id="menu" style="float: left;">
+        <a style="text-decoration: underline;" href="./">Home</a>
+      </p>
+      <p id="menu" style="margin-left: 6px ;float: left;">
+        <a href="/posts/">Posts</a>
+      </p>
+      <p id="menu" style="margin-left: 6px ;float: left;">
+        <a href="/social/">Social</a>
+      </p>
+      <p id="menu" style="margin-left: 6px ;float: left;">
+        <a href="/contact/">Contact</a>
+      </p>
+      <p id="time" style="text-align: right; float: right; " >Home:</p>
+    </div>
+    <!-- Border -->
+    <p class="caret" style="margin-right: 6px; float: right;">News</p>
+    <div class="block" style="clear: both;">
+      <hr class="border"></hr>
+    </div>
+    <!-- Border -->
+    <div class="block">
+        <div class="nested">
+          <line>
+      
+            <br />
+            <zero-md src="/news.md">
+              <template>
+                <link rel="stylesheet" href="/assets/style/markdown-styles.css">
+              </template>
+            </zero-md>
+            
+            <br />
+          </line>
+          <!-- Border -->
+          <div class="block" style="clear: both;">
+            <hr class="border"></hr>
+          </div>
+          <!-- Border -->
+          <script src="/assets/main.js"></script>
+        </div>
+      </div> 
+  </center>
+  <footer>
+    <div id="donotcopy">
+      <script>
+        document.write(`&copy;Tarballwalf 2020 - ${new Date().getFullYear()}`);
+        </script>
+     </div>
+    </footer>
+  </body>
+  </html>
